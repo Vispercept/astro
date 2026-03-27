@@ -9,7 +9,7 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  bsae: '/astro',
+  base: '/astro',
   integrations: [
     tailwind({
       applyBaseStyles: false,
